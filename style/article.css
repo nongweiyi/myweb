@@ -1,0 +1,26 @@
+@charset "utf-8";
+article{
+    /*height: 500px;*/
+    background-color: white;
+    padding: 20px;
+
+}
+.content{
+    margin-top: 30px;
+}
+article h2{
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+.info{
+    text-align: center;
+    margin: 20px;
+}
+.paragraph{
+    line-height: 28px;
+    text-indent: 2em;
+    font-size: 16px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*content*/
+.content{
+    height: 500px;
+    margin-top: 30px;
+}
+.con-left{
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+.con-right{
+    width: 69%;
+    height: 500px;
+    float: right;
+}
+/*count*/
+.count,.archive,.home-img,.dynamics{
+    border: 1px solid #E7B4AA;
+    border-radius: 2px;
+}
+.count{
+    height: 100px;
+    background-color: white;
+
+}
+.count li{
+    float: left;
+    display: inline-block;
+    width: 119px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.count strong{
+    display: block;
+    font-size: 24px;
+}
+
+.count a{
+    width: 110px;
+    flex: 1;
+    display: inline-block;
+    color: #403E3B;
+    border-left: 1px solid #DBD5C8;
+}
+.count li:first-child>a{
+    border: none;
+}
+/*archive*/
+.archive,.message,.dynamics{
+    margin-top: 15px;
+    color: #403E3B;
+    background-color: white;
+}
+.con-left h2,.dynamics h2{
+    color: #403E3B;
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #e6e3da;
+    padding-left: 10px;
+}
+.archive ul,.message ul{
+    padding: 0 15px;
+}
+.archive li{
+    list-style-type: none;
+    line-height: 45px;
+
+
+}
+.archive li{
+    border-bottom: 1px solid #DBD5C8;
+}
+.archive li em{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: url("../image/icon.png") no-repeat left center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/*message*/
+.message li{
+    list-style-type: none;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.message  textarea{
+    width: 90%;
+    margin:10px 20px;
+    height: 60px;
+    padding: 5px;
+    resize: none;
+}
+.message button{
+    margin: 0 10px 10px 20px;
+}
+.visitor{
+    font-weight: bold;
+}
+/*home-img*/
+.home-img{
+    height: 358px;
+    background-color: white;
+}
+/*dynamics*/
+.dynamics{
+    /*height: 500px;*/
+}
+.dynamics h2{
+    border-bottom: 7px solid #113146;
+}
+.dynamics img{
+    height: 120px;
+    width: 120px;
+}
+.dynamics figcaption{
+    width: 650px;
+    height: 120px;
+    /*background-color: #122b40;*/
+    padding: 10px;
+    position: relative;
+    line-height: 25px;
+    text-indent: 2em;
+}
+.dynamics-con{
+   margin: 30px 15px;
+}
+.time{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
